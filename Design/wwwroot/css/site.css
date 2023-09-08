@@ -1,0 +1,101 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #F3EAE3;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fraunces;
+}
+
+.container {
+    display: flex;
+    height: 500px;
+    width: 600px;
+}
+
+.details {
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 48px;
+    border-radius: 0 16px 16px 0;
+}
+
+.image {
+    /*position: relative;*/
+    width: 50%;
+    height: 100%;
+}
+
+.clr {
+    color: #A2A4B2;
+}
+
+.title {
+    color: #000000;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
+
+.subTitle {
+    color: #6C7289;
+    margin: 20px 0;
+    font-size: 17px;
+}
+
+
+
+.btnAdd {
+    color: #ffffff;
+    background-color: #3D8168;
+    border: none;
+    width: 210px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px 0 0 16px;
+    z-index: 0;
+}
+
+.priceafteramount {
+    color: #3D8168;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.pricebeforamount {
+    color: #A2A4B2!important;
+}
+.text-black {
+    color: #A2A4B2 !important;
+}
+
